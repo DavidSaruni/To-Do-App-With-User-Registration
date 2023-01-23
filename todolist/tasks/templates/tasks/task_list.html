@@ -15,6 +15,7 @@
 
 <div class="search-add-wrapper">
     <form method="GET" style="margin-top: 20px;display: flex;">
+        {% csrf_token %}
         <input type="text" name="search-area" value="{{search_input}}">
         <input class="button" type="submit" value="Search">
     </form>
