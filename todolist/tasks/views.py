@@ -12,6 +12,9 @@ from django.contrib.auth import login
 
 from .models import Task
 
+#from django.views.decorators.csrf import requires_csrf_token
+
+
 
 # Create your views here.
 
